@@ -1,0 +1,2540 @@
+2022-07-13 12:43:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US): failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 153
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 277
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 155
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__d - CORE/src/I18n/functions.php, line 91
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 310
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 287
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 93
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 568
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 72
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 122
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 12:43:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 156
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 277
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 155
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__d - CORE/src/I18n/functions.php, line 91
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 310
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 287
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 93
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 568
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 72
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 122
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 12:43:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 174
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1666
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1254
+Cake\Datasource\Paginator::getQuery() - CORE/src/Datasource/Paginator.php, line 208
+Cake\Datasource\Paginator::paginate() - CORE/src/Datasource/Paginator.php, line 177
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 203
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 783
+App\Controller\ArticlesController::index() - APP/Controller/ArticlesController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 122
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 12:43:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 174
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1666
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1254
+Cake\Datasource\Paginator::getQuery() - CORE/src/Datasource/Paginator.php, line 208
+Cake\Datasource\Paginator::paginate() - CORE/src/Datasource/Paginator.php, line 177
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 203
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 783
+App\Controller\ArticlesController::index() - APP/Controller/ArticlesController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 122
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 12:43:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_users) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 649
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 494
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 449
+Cake\ORM\Query::applyOptions() - CORE/src/ORM/Query.php, line 811
+Cake\ORM\Table::callFinder() - CORE/src/ORM/Table.php, line 2451
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1257
+Cake\Datasource\Paginator::getQuery() - CORE/src/Datasource/Paginator.php, line 208
+Cake\Datasource\Paginator::paginate() - CORE/src/Datasource/Paginator.php, line 177
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 203
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 783
+App\Controller\ArticlesController::index() - APP/Controller/ArticlesController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 122
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 12:43:06 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_users) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 649
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 494
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 449
+Cake\ORM\Query::applyOptions() - CORE/src/ORM/Query.php, line 811
+Cake\ORM\Table::callFinder() - CORE/src/ORM/Table.php, line 2451
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1257
+Cake\Datasource\Paginator::getQuery() - CORE/src/Datasource/Paginator.php, line 208
+Cake\Datasource\Paginator::paginate() - CORE/src/Datasource/Paginator.php, line 177
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 203
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 783
+App\Controller\ArticlesController::index() - APP/Controller/ArticlesController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 122
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 12:43:08 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 12:43:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 12:43:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 12:43:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 12:43:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 254]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+setcookie - [internal], line ??
+Cake\Http\ResponseEmitter::setCookie() - CORE/src/Http/ResponseEmitter.php, line 254
+Cake\Http\ResponseEmitter::emitCookies() - CORE/src/Http/ResponseEmitter.php, line 219
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 207
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 12:55:12 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US): failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 153
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 277
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 155
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__d - CORE/src/I18n/functions.php, line 91
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 310
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 287
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 93
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 568
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 72
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 12:55:12 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 156
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 277
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 155
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__d - CORE/src/I18n/functions.php, line 91
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 310
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 287
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 93
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 568
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 72
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 12:55:13 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 12:55:13 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 12:55:13 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 12:55:13 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 14:51:12 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US): failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /debug-kit/toolbar/bf3174e1-6e00-465c-bd95-881d6971aa4b
+Referer URL: http://localhost:8080/
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 153
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 277
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 155
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__d - CORE/src/I18n/functions.php, line 91
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 310
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 287
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 93
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 568
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 72
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 14:51:12 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /debug-kit/toolbar/bf3174e1-6e00-465c-bd95-881d6971aa4b
+Referer URL: http://localhost:8080/
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 156
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 277
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 155
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__d - CORE/src/I18n/functions.php, line 91
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 310
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 287
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 93
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 568
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 72
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 14:51:16 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /debug-kit/toolbar/bf3174e1-6e00-465c-bd95-881d6971aa4b
+Referer URL: http://localhost:8080/
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 14:51:16 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /debug-kit/toolbar/bf3174e1-6e00-465c-bd95-881d6971aa4b
+Referer URL: http://localhost:8080/
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 14:51:16 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /debug-kit/toolbar/bf3174e1-6e00-465c-bd95-881d6971aa4b
+Referer URL: http://localhost:8080/
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 14:51:16 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /debug-kit/toolbar/bf3174e1-6e00-465c-bd95-881d6971aa4b
+Referer URL: http://localhost:8080/
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:14:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US): failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 153
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 277
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 155
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__d - CORE/src/I18n/functions.php, line 91
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 310
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 287
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 93
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 568
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 72
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:14:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 156
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 277
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 155
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__d - CORE/src/I18n/functions.php, line 91
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 310
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 287
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 93
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 568
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 72
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:17:51 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US): failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 153
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 277
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 155
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__d - CORE/src/I18n/functions.php, line 91
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 310
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 287
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 93
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 568
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 72
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:17:51 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 156
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 277
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 155
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__d - CORE/src/I18n/functions.php, line 91
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 310
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 287
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 93
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 568
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 72
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:17:52 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 174
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1666
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1254
+App\Controller\ArticlesController::index() - APP/Controller/ArticlesController.php, line 19
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:17:52 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 174
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1666
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1254
+App\Controller\ArticlesController::index() - APP/Controller/ArticlesController.php, line 19
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:17:53 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:17:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:17:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:17:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:07 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles): failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 174
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1666
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1254
+App\Controller\ArticlesController::index() - APP/Controller/ArticlesController.php, line 19
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:07 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 174
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1666
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1254
+App\Controller\ArticlesController::index() - APP/Controller/ArticlesController.php, line 19
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:08 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:25 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles): failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 174
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1666
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1254
+App\Controller\ArticlesController::index() - APP/Controller/ArticlesController.php, line 19
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:25 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 174
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1666
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1254
+App\Controller\ArticlesController::index() - APP/Controller/ArticlesController.php, line 19
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:27 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:35 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_tags): failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 174
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1666
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1254
+Cake\ORM\Association\BelongsToMany::find() - CORE/src/ORM/Association/BelongsToMany.php, line 1036
+App\Controller\ArticlesController::add() - APP/Controller/ArticlesController.php, line 50
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:36 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_tags) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 174
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1666
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1254
+Cake\ORM\Association\BelongsToMany::find() - CORE/src/ORM/Association/BelongsToMany.php, line 1036
+App\Controller\ArticlesController::add() - APP/Controller/ArticlesController.php, line 50
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:37 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\View\Form\EntityContext::type() - CORE/src/View/Form/EntityContext.php, line 702
+Cake\View\Helper\FormHelper::_inputType() - CORE/src/View/Helper/FormHelper.php, line 1228
+Cake\View\Helper\FormHelper::_parseOptions() - CORE/src/View/Helper/FormHelper.php, line 1199
+Cake\View\Helper\FormHelper::control() - CORE/src/View/Helper/FormHelper.php, line 1037
+include - ROOT/templates/Articles/add.php, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::render() - CORE/src/View/View.php, line 751
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:37 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\View\Form\EntityContext::type() - CORE/src/View/Form/EntityContext.php, line 702
+Cake\View\Helper\FormHelper::_inputType() - CORE/src/View/Helper/FormHelper.php, line 1228
+Cake\View\Helper\FormHelper::_parseOptions() - CORE/src/View/Helper/FormHelper.php, line 1199
+Cake\View\Helper\FormHelper::control() - CORE/src/View/Helper/FormHelper.php, line 1037
+include - ROOT/templates/Articles/add.php, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::render() - CORE/src/View/View.php, line 751
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:37 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 153
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__ - CORE/src/I18n/functions.php, line 38
+Cake\View\Helper\FormHelper::label() - CORE/src/View/Helper/FormHelper.php, line 828
+Cake\View\Helper\FormHelper::_inputLabel() - CORE/src/View/Helper/FormHelper.php, line 1438
+Cake\View\Helper\FormHelper::_getLabel() - CORE/src/View/Helper/FormHelper.php, line 1381
+Cake\View\Helper\FormHelper::control() - CORE/src/View/Helper/FormHelper.php, line 1093
+include - ROOT/templates/Articles/add.php, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::render() - CORE/src/View/View.php, line 751
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:37 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 156
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__ - CORE/src/I18n/functions.php, line 38
+Cake\View\Helper\FormHelper::label() - CORE/src/View/Helper/FormHelper.php, line 828
+Cake\View\Helper\FormHelper::_inputLabel() - CORE/src/View/Helper/FormHelper.php, line 1438
+Cake\View\Helper\FormHelper::_getLabel() - CORE/src/View/Helper/FormHelper.php, line 1381
+Cake\View\Helper\FormHelper::control() - CORE/src/View/Helper/FormHelper.php, line 1093
+include - ROOT/templates/Articles/add.php, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::render() - CORE/src/View/View.php, line 751
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:37 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:37 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:37 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:37 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:55 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles): failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles/add
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Marshaller::_buildPropertyMap() - CORE/src/ORM/Marshaller.php, line 71
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 554
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2773
+App\Controller\ArticlesController::add() - APP/Controller/ArticlesController.php, line 37
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 164
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:56 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles/add
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Marshaller::_buildPropertyMap() - CORE/src/ORM/Marshaller.php, line 71
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 554
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2773
+App\Controller\ArticlesController::add() - APP/Controller/ArticlesController.php, line 37
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 164
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:56 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles/add
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 153
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__ - CORE/src/I18n/functions.php, line 38
+App\Controller\ArticlesController::add() - APP/Controller/ArticlesController.php, line 47
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 164
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:56 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles/add
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 156
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__ - CORE/src/I18n/functions.php, line 38
+App\Controller\ArticlesController::add() - APP/Controller/ArticlesController.php, line 47
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 164
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:56 Error: [TypeError] Argument 1 passed to Cake\Http\Session::_overwrite() must be of the type array, null given, called in /var/www/vendor/cakephp/cakephp/src/Http/Session.php on line 491 in /var/www/vendor/cakephp/cakephp/src/Http/Session.php on line 537
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Http/Session.php:491
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/FlashComponent.php:112
+- /var/www/vendor/cakephp/cakephp/src/Controller/Component/FlashComponent.php:155
+- /var/www/src/Controller/ArticlesController.php:47
+- /var/www/vendor/cakephp/cakephp/src/Controller/Controller.php:524
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:229
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles/add
+Client IP: 172.19.0.1
+
+
+2022-07-13 15:18:57 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles/add
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:57 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles/add
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:57 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles/add
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:18:57 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles/add
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:19:07 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_tags): failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 174
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1666
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1254
+Cake\ORM\Association\BelongsToMany::find() - CORE/src/ORM/Association/BelongsToMany.php, line 1036
+App\Controller\ArticlesController::add() - APP/Controller/ArticlesController.php, line 50
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:19:07 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_tags) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 174
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1666
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1254
+Cake\ORM\Association\BelongsToMany::find() - CORE/src/ORM/Association/BelongsToMany.php, line 1036
+App\Controller\ArticlesController::add() - APP/Controller/ArticlesController.php, line 50
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:19:08 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\View\Form\EntityContext::type() - CORE/src/View/Form/EntityContext.php, line 702
+Cake\View\Helper\FormHelper::_inputType() - CORE/src/View/Helper/FormHelper.php, line 1228
+Cake\View\Helper\FormHelper::_parseOptions() - CORE/src/View/Helper/FormHelper.php, line 1199
+Cake\View\Helper\FormHelper::control() - CORE/src/View/Helper/FormHelper.php, line 1037
+include - ROOT/templates/Articles/add.php, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::render() - CORE/src/View/View.php, line 751
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:19:08 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\View\Form\EntityContext::type() - CORE/src/View/Form/EntityContext.php, line 702
+Cake\View\Helper\FormHelper::_inputType() - CORE/src/View/Helper/FormHelper.php, line 1228
+Cake\View\Helper\FormHelper::_parseOptions() - CORE/src/View/Helper/FormHelper.php, line 1199
+Cake\View\Helper\FormHelper::control() - CORE/src/View/Helper/FormHelper.php, line 1037
+include - ROOT/templates/Articles/add.php, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::render() - CORE/src/View/View.php, line 751
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:19:08 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 153
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__ - CORE/src/I18n/functions.php, line 38
+Cake\View\Helper\FormHelper::label() - CORE/src/View/Helper/FormHelper.php, line 828
+Cake\View\Helper\FormHelper::_inputLabel() - CORE/src/View/Helper/FormHelper.php, line 1438
+Cake\View\Helper\FormHelper::_getLabel() - CORE/src/View/Helper/FormHelper.php, line 1381
+Cake\View\Helper\FormHelper::control() - CORE/src/View/Helper/FormHelper.php, line 1093
+include - ROOT/templates/Articles/add.php, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::render() - CORE/src/View/View.php, line 751
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:19:08 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 156
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__ - CORE/src/I18n/functions.php, line 38
+Cake\View\Helper\FormHelper::label() - CORE/src/View/Helper/FormHelper.php, line 828
+Cake\View\Helper\FormHelper::_inputLabel() - CORE/src/View/Helper/FormHelper.php, line 1438
+Cake\View\Helper\FormHelper::_getLabel() - CORE/src/View/Helper/FormHelper.php, line 1381
+Cake\View\Helper\FormHelper::control() - CORE/src/View/Helper/FormHelper.php, line 1093
+include - ROOT/templates/Articles/add.php, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1164
+Cake\View\View::_render() - CORE/src/View/View.php, line 1125
+Cake\View\View::render() - CORE/src/View/View.php, line 751
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 691
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 533
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:19:09 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:19:09 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:19:09 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:19:09 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /articles/add
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:22:46 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US): failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/view/first-post
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 153
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 277
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 155
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__d - CORE/src/I18n/functions.php, line 91
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 310
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 287
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 93
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 568
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 72
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:22:46 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/view/first-post
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 156
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 277
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 181
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 155
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 156
+__d - CORE/src/I18n/functions.php, line 91
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 310
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 287
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 93
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 568
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 72
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:22:46 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/view/first-post
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 174
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1666
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1254
+Cake\ORM\Table::_dynamicFinder() - CORE/src/ORM/Table.php, line 2529
+Cake\ORM\Table::__call() - CORE/src/ORM/Table.php, line 2550
+App\Controller\ArticlesController::view() - APP/Controller/ArticlesController.php, line 27
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:22:47 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/view/first-post
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 174
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1666
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1254
+Cake\ORM\Table::_dynamicFinder() - CORE/src/ORM/Table.php, line 2529
+Cake\ORM\Table::__call() - CORE/src/ORM/Table.php, line 2550
+App\Controller\ArticlesController::view() - APP/Controller/ArticlesController.php, line 27
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:22:47 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_tags) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/view/first-post
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 496
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 449
+App\Controller\ArticlesController::view() - APP/Controller/ArticlesController.php, line 28
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:22:47 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_tags) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/view/first-post
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 496
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 449
+App\Controller\ArticlesController::view() - APP/Controller/ArticlesController.php, line 28
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:22:47 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles_tags) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/view/first-post
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 181
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Association\BelongsToMany::_appendJunctionJoin() - CORE/src/ORM/Association/BelongsToMany.php, line 1077
+Cake\ORM\Association\BelongsToMany::Cake\ORM\Association\{closure}() - CORE/src/ORM/Association/BelongsToMany.php, line 535
+Cake\ORM\Association\Loader\SelectLoader::_buildQuery() - CORE/src/ORM/Association/Loader/SelectLoader.php, line 170
+Cake\ORM\Association\Loader\SelectWithPivotLoader::_buildQuery() - CORE/src/ORM/Association/Loader/SelectWithPivotLoader.php, line 92
+Cake\ORM\Association\Loader\SelectLoader::buildEagerLoader() - CORE/src/ORM/Association/Loader/SelectLoader.php, line 127
+Cake\ORM\Association\BelongsToMany::eagerLoader() - CORE/src/ORM/Association/BelongsToMany.php, line 539
+Cake\ORM\EagerLoader::loadExternal() - CORE/src/ORM/EagerLoader.php, line 678
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1099
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 292
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 1046
+Cake\ORM\Query::first() - CORE/src/Datasource/QueryTrait.php, line 443
+Cake\ORM\Query::firstOrFail() - CORE/src/Datasource/QueryTrait.php, line 454
+App\Controller\ArticlesController::view() - APP/Controller/ArticlesController.php, line 29
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:22:47 Warning: Warning (512): SplFileInfo::openFile(/var/www/tmp/cache/models/myapp_cake_model_default_articles_tags) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /articles/view/first-post
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 151
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 277
+Cake\ORM\Association\BelongsToMany::_appendJunctionJoin() - CORE/src/ORM/Association/BelongsToMany.php, line 1077
+Cake\ORM\Association\BelongsToMany::Cake\ORM\Association\{closure}() - CORE/src/ORM/Association/BelongsToMany.php, line 535
+Cake\ORM\Association\Loader\SelectLoader::_buildQuery() - CORE/src/ORM/Association/Loader/SelectLoader.php, line 170
+Cake\ORM\Association\Loader\SelectWithPivotLoader::_buildQuery() - CORE/src/ORM/Association/Loader/SelectWithPivotLoader.php, line 92
+Cake\ORM\Association\Loader\SelectLoader::buildEagerLoader() - CORE/src/ORM/Association/Loader/SelectLoader.php, line 127
+Cake\ORM\Association\BelongsToMany::eagerLoader() - CORE/src/ORM/Association/BelongsToMany.php, line 539
+Cake\ORM\EagerLoader::loadExternal() - CORE/src/ORM/EagerLoader.php, line 678
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1099
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 292
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 1046
+Cake\ORM\Query::first() - CORE/src/Datasource/QueryTrait.php, line 443
+Cake\ORM\Query::firstOrFail() - CORE/src/Datasource/QueryTrait.php, line 454
+App\Controller\ArticlesController::view() - APP/Controller/ArticlesController.php, line 29
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 524
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 229
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 132
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 162
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 118
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:22:48 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/vendor/cakephp/cakephp/src/Error/Debugger.php line=831 in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 72]
+Request URL: /articles/view/first-post
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 72
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:22:48 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 169]
+Request URL: /articles/view/first-post
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 169
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:22:48 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /articles/view/first-post
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:22:48 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/vendor/cakephp/cakephp/src/Error/Debugger.php:831) in [/var/www/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 202]
+Request URL: /articles/view/first-post
+Referer URL: http://localhost:8080/articles
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 202
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 76
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2022-07-13 15:23:05 Error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/vendor/cakephp/cakephp/src/Http/BaseApplication.php:227
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:132
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:162
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:118
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/webroot/index.php:40
+
+Request URL: /css/milligram.min.css.map
+Client IP: 172.19.0.1
+
+

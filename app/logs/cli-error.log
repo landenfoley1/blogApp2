@@ -1,0 +1,45 @@
+2022-07-13 12:40:19 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] No such file or directory in /var/www/vendor/cakephp/cakephp/src/Database/Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] No such file or directory',
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/vendor/cakephp/cakephp/src/Database/Connection.php:400
+- /var/www/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:1063
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /var/www/vendor/cakephp/bake/src/Command/AllCommand.php:94
+- /var/www/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /var/www/vendor/cakephp/cakephp/src/Database/Driver.php on line 104
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver.php:104
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/vendor/cakephp/cakephp/src/Database/Connection.php:400
+- /var/www/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:1063
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /var/www/vendor/cakephp/bake/src/Command/AllCommand.php:94
+- /var/www/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/bin/cake.php:12
+
+
+
